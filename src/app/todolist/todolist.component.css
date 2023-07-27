@@ -1,0 +1,51 @@
+#list1 .form-control {
+    border-color: transparent;
+  }
+  
+  #list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+  }
+  
+  .clickable:hover {
+    cursor: pointer;
+  }
+  
+  .description {
+    width: 50%;
+    align-self: flex-end;
+    text-align: left;
+    float: right;
+    padding: 30px 30px 30px 200px;
+  }
+  
+  .description p {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+  }
+  
+  .description p a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .list-group-item {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }

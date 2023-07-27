@@ -1,1 +1,70 @@
-<p>todolist works!</p>
+<section class="vh-100">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <div class="card" id="list1" style="border-radius: .75rem; background-color: #eff1f2;">
+            <div class="card-body py-4 px-4 px-md-5">
+              <p class="h1 text-center mt-3 mb-4 pb-3">
+                <i class="fas fa-check-square me-3"></i>
+                <u>To Do List</u>
+              </p>
+              <div class="pb-2">
+                <div class="card" [class.invalid]="invalidInput">
+                  <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                        <!-- Make the border red when input field is empty, also add validation and show popup message -->
+                      <input type="text" class="form-control form-control-lg"
+                        id="exampleFormControlInput1" placeholder="Add a new task..." #taskInput>
+                      <div>
+                        <!-- To add functionality for the Add button -->
+                        <button type="button" class="btn btn-dark">Add</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="my-4">
+              <!-- Get request for all todos -->
+              <ul class="list-group list-group-horizontal rounded-0 mb-2 bg-light" >
+                <li class="list-group-item d-flex align-items-center ps-0 pe-3 py-1 rounded-0 border-0 bg-transparent">
+                  <div class="form-check">
+                    <span
+                      style="height: 10px; width: 10px; background-color: #000000; border-radius: 50%; display: inline-block;"></span>
+                  </div>
+                </li>
+                <li class="list-group-item px-2 py-1 d-flex align-items-center flex-grow-1 border-0 bg-transparent">
+                    <!-- For the edit functionality -->
+                  <p class="lead fw-normal mb-0 w-100 ms-n2 ps-2 py-1 rounded"
+                    style="word-wrap: break-word; overflow-wrap: break-word;"></p>
+                  <input type="text"
+                    style="width: 100%; word-wrap: break-word; overflow-wrap: break-word;">
+                </li>
+                <li class="list-group-item ps-3 pe-0 py-1 rounded-0 border-0 bg-transparent">
+                    <!-- Show the save button and hide the delete button -->
+                  <div class="d-flex flex-row justify-content-end align-items-center mb-1 icon-container">
+                    <div>
+                      <a class="text-success clickable" data-mdb-toggle="tooltip" title="Save changes"><i
+                          class="fas fa-check me-3"></i></a>
+                    </div>
+                    <!-- To add functionality for edit and delete button -->
+                    <a class="text-info clickable"
+                      data-mdb-toggle="tooltip" title="Edit todo"><i class="fas fa-pencil-alt me-3 py3"></i></a>
+                    <a (click)="deleteTodo(todo.id)" class="text-danger clickable"
+                      data-mdb-toggle="tooltip" title="Delete todo"><i class="fas fa-trash-alt me-3 py3"></i></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="description">
+            <p style="font-weight: bold; font-family: DM Sans;">SIMPLE TO DO LIST APPLICATION</p>
+            <p>Created using Angular, NodeJS, Express.js, Bootstrap</p>
+            <p>and MySQL as database. By: <a href="https://github.com/DarrelMendoza" target="_blank"
+                style="font-weight: normal; font-style: normal; font-size: 14px;"><u>Darrel Mendoza</u></a></p>
+            <p style="color: #343434; font-weight: bold; font-style: italic;"><a href="https://github.com/DarrelMendoza"
+                target="_blank">View Github Repository</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
