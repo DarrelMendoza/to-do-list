@@ -49,3 +49,14 @@
     word-wrap: break-word;
     word-break: break-word;
   }
+  
+  .invalid {
+    border-color: red !important;
+  }
+  
+  .alert-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
