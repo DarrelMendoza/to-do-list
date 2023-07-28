@@ -1,27 +1,52 @@
-# ToDoList
+# **Darrel's To-Do List Application**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+Welcome to the repository of Darrel's To-Do List application, a simple yet powerful to-do list application that helps manage your tasks easily. This application is built with Angular and Bootstrap for the frontend, and NodeJS, Express.js, and MySQL for the backend. You can view the live application here: [**https://darrels-todolist.web.app/**](https://darrels-todolist.web.app/)
 
-## Development server
+## **Live Demo**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+For live demo of the application, please visit: [**https://darrels-todolist.web.app/**](https://darrels-todolist.web.app/)
 
-## Code scaffolding
+## **Technologies Used**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Frontend: [**Angular**](https://angular.io/) and [**Bootstrap**](https://getbootstrap.com/)
+- Backend: [**Node.js**](https://nodejs.org/en/), [**Express.js**](https://expressjs.com/), and [**MySQL**](https://www.mysql.com/)
 
-## Build
+## **Getting Started**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Running unit tests
+## **Table of Contents**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. **[Features](#features)**
+2. **[Installation](#installation)**
+3. **[Running the Application](#running-the-application)**
+4. **[Screenshots](#screenshots)**
 
-## Running end-to-end tests
+## **Features**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Create a task
+- Delete a task
+- Mark a task as completed
+- Edit a task
 
-## Further help
+## **Installation**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Here are the steps to install and setup the application.
+
+### **Prerequisites**
+
+- NodeJS
+- Angular CLI
+- XAMPP
+- MySQL
+
+### **Setting up the Backend**
+
+The NodeJS and Express.js file named **`app.js`** is located in the **`api`** folder. The exported MySQL database file is located in the **`db`** folder.
+
+1. Install [**XAMPP**](https://www.apachefriends.org/download.html) for our MySQL database.
+2. Open XAMPP control panel and start the Apache and MySQL services.
+3. Navigate to **`http://localhost/phpmyadmin/`** on your browser.
+4. Click on 'Import' and choose the exported database file from the **`db`** folder. Click 'Go' to import the database.
+5. Clone the repository and navigate to the **`api`** folder.
+6. Run **`npm install`** to install the required dependencies.
