@@ -50,3 +50,62 @@ The NodeJS and Express.js file named **`app.js`** is located in the **`api`** fo
 4. Click on 'Import' and choose the exported database file from the **`db`** folder. Click 'Go' to import the database.
 5. Clone the repository and navigate to the **`api`** folder.
 6. Run **`npm install`** to install the required dependencies.
+
+### **Setting up the Frontend**
+
+Make sure that you have the Angular CLI installed globally. If not, install it using the following command:
+```
+npm install -g @angular/cli
+```
+1. Navigate to the root directory of the project.
+2. Run npm install to install all the required dependencies.
+
+### **Running the Application**
+
+To run the application, you need to start both the backend and the frontend servers.
+
+### **Running the Backend**
+
+Navigate to the api folder.
+Run the following command to start the server:
+
+```
+node app.js
+```
+
+You should now have your backend running on http://localhost:3000/.
+
+### **Running the Frontend**
+
+Navigate to the root directory of the project.
+Run the following command to start the Angular dev server:
+
+```
+ng serve
+```
+
+You should now have your frontend running on http://localhost:4200/.
+Visit http://localhost:4200/ in your browser. Your application should be up and running.
+
+### **Screenshots**
+
+Below are some more screenshots demonstrating the features of the application.
+
+### **Main Page**
+
+
+### **Adding a Task**
+
+### **Editing a Task**
+
+### **Deleting a Task**
+
+## **Acknowledgements**
+
+- **[Angular](https://angular.io/)**
+- **[Bootstrap](https://getbootstrap.com/)**
+- **[Node.js](https://nodejs.org/en/)**
+- **[Express.js](https://expressjs.com/)**
+- **[MySQL](https://www.mysql.com/)**
+
+Feel free to fork this repository and enhance the application.
