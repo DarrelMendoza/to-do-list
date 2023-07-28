@@ -1,6 +1,6 @@
 # **Simple To-Do List Application**
 
-This application is built with Angular and Bootstrap for the frontend, and NodeJS, Express.js, and MySQL for the backend. This is also deployed to firebase.
+This application uses Angular and Bootstrap on the frontend for interactive and responsive UI. The backend is built with NodeJS and Express.js which uses MySQL for data management. The entire app is hosted on Firebase.
 
 ## **Live Demo**
 
@@ -18,18 +18,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## **Table of Contents**
 
-1. **[Features](#features)**
-2. **[Installation](#installation)**
-3. **[Running the Application](#running-the-application)**
-4. **[Screenshots](#screenshots)**
-
-## **Features**
-
-- Create a task
-- View tasks
-- Edit a task
-- Delete a task
-
+1. **[Installation](#installation)**
+2. **[Running the Application](#running-the-application)**
+3. **[Screenshots](#screenshots)**
 
 ## **Installation**
 
@@ -41,6 +32,12 @@ Here are the steps to install and setup the application.
 - Angular CLI
 - XAMPP
 - MySQL
+
+### **Clone Repository**
+Clone the repository by running command:
+```
+git clone git@github.com:DarrelMendoza/to-do-list.git
+```
 
 ### **Setting up the Backend**
 
