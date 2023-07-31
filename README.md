@@ -93,7 +93,7 @@ Visit http://localhost:4200/ in your browser. Your application should be up and 
 Below are some more screenshots demonstrating the features of the application.
 
 ### **Main Page**
-![main](https://github.com/DarrelMendoza/to-do-list/assets/88825804/c5364d87-c2d6-4c41-8268-bc8db461a864)
+![CPT2308010059-1904x912](https://github.com/DarrelMendoza/to-do-list/assets/88825804/abc677a0-bb1c-4c5e-9cd5-95d0908dca5e)
 
 ### **Adding a Task**
 ![CPT2307281847-1920x906](https://github.com/DarrelMendoza/to-do-list/assets/88825804/e12b7008-b9b9-4d82-a3df-6a35ac7d5440)
