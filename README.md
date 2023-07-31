@@ -5,6 +5,7 @@ This application uses Angular and Bootstrap on the frontend for interactive and 
 ## **Live Demo**
 
 For live demo of the application, please visit: [**https://darrels-todolist.web.app/**](https://darrels-todolist.web.app/)
+
 ![CPT2308010059-1904x912](https://github.com/DarrelMendoza/to-do-list/assets/88825804/abc677a0-bb1c-4c5e-9cd5-95d0908dca5e)
 
 ## **Technologies Used**
