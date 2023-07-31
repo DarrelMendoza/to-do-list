@@ -1,10 +1,11 @@
-# **Simple To-Do List Application**
+![CPT2308010059-1904x912](https://github.com/DarrelMendoza/to-do-list/assets/88825804/ce0460d8-4fcd-402c-8a08-42dfc658605c)# **Simple To-Do List Application**
 
 This application uses Angular and Bootstrap on the frontend for interactive and responsive UI. The backend is built with NodeJS and Express.js which uses MySQL for data management. The entire app is hosted on Firebase.
 
 ## **Live Demo**
 
 For live demo of the application, please visit: [**https://darrels-todolist.web.app/**](https://darrels-todolist.web.app/)
+![CPT2308010059-1904x912](https://github.com/DarrelMendoza/to-do-list/assets/88825804/abc677a0-bb1c-4c5e-9cd5-95d0908dca5e)
 
 ## **Technologies Used**
 
